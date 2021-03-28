@@ -1,0 +1,22 @@
+{
+  "name": "carrerailegal",
+  "version": "1.0.0",
+  "description": "Juego de carreras en JS",
+  "main": "./src/script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gfs2395/CarreraAerea.git"
+  },
+  "author": "Guille",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gfs2395/CarreraAerea/issues"
+  },
+  "homepage": "https://github.com/gfs2395/CarreraAerea#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
