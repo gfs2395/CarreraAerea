@@ -29,5 +29,11 @@ gulp.task('serve', gulp.series(['sass'], function() {
     gulp.watch("./src/*.js").on('change', browserSync.reload);
 
 }));
-
+const jsdoc = require('gulp-jsdoc3');
+ 
+gulp.task('doc', function (cb) {
+    const config = require('./jsdoc.json');
+    gulp.src(['README.md', './src/**/*.js'], {read: false})
+        .pipe(jsdoc(config, cb));
+});
 gulp.task('default', gulp.series(['serve']));
