@@ -2,6 +2,12 @@ body{
     background-color: maroon;
 }
 .controles{
-    width: 40px;
+    width: 100%;
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    button{
+        width: 20%;
+    }
 }

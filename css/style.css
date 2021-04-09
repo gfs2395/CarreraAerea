@@ -2,5 +2,10 @@ body {
   background-color: maroon; }
 
 .controles {
-  width: 40px;
-  background-color: white; }
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+  .controles button {
+    width: 20%; }
