@@ -9,7 +9,7 @@
     width: 20%;
 }
 .avatar{
-    width: 150px;
+    
     width: 150px;
 }
 .descripciones{
@@ -17,10 +17,37 @@
 }
 .playerbox{
     background-color: black;
-    width: 100px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 [data-id="4"]{
     img{
         transform: rotate(420deg);
     }
 }
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  table,
+  th,
+  td {
+    border: 1px solid black;
+  }
+  thead {
+    background-color: #1c87c9;
+    color: #ffffff;
+  }
+  th {
+    text-align: center;
+    height: 50px;
+  }
+  tbody tr:nth-child(odd) {
+    background: #ffffff;
+  }
+  tbody tr:nth-child(even) {
+    background: #f4f4f4;
+  }
